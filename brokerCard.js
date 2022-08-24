@@ -5,14 +5,14 @@ import { NavigationMixin } from 'lightning/navigation';
 import BROKER_FIELD from '@salesforce/schema/Property__c.Broker__c';
 import NAME_FIELD from '@salesforce/schema/Broker__c.Name';
 import PHONE_FIELD from '@salesforce/schema/Broker__c.Phone__c';
-import MOBILE_PHONE_FIELD from '@salesforce/schema/Broker__c.Mobile_Phone__c';
+//import MOBILE_PHONE_FIELD from '@salesforce/schema/Broker__c.Mobile_Phone__c';
 //import EMAIL_FIELD from '@salesforce/schema/Broker__c.Email__c';
 
 const PROPERTY_FIELDS = [BROKER_FIELD];
 const BROKER_FIELDS = [
     NAME_FIELD,
     PHONE_FIELD,
-    MOBILE_PHONE_FIELD,
+    //MOBILE_PHONE_FIELD,
    // EMAIL_FIELD
 ];
 
